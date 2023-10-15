@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'FauneRegular';
+    src: url('faune/Faune-TextRegular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FauneItalic';
+    src: url('faune/Faune-TextItalic.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'FauneDisplayBlack';
+    src: url('faune/Faune-DisplayBlack.otf') format('opentype');
+}
+
+em {
+    font-family: 'FauneItalic';
+}
+
+body {
+    background-color: #3f3b53;
+    margin: 10% 20%;
+    font-size: medium;
+    font-family: FauneRegular;
+    color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+    font-size: x-large;
+    font-family: FauneDisplayBlack;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+}
+
+.tab {
+    background-color: #c75824;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0; 
+    text-decoration: none; 
+    display: inline-block; 
+}
+
+.tab:hover {
+    background-color: #d16a3b; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+    border: 2px solid #2a263c; 
+}
+
+th {
+    background-color: #2a263c; 
+    color: antiquewhite; 
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #2a263c; 
+}
